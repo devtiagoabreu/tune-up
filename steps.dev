@@ -6,3 +6,7 @@ Rodar projeto
 
 Adicionando Typescript
   yarn add typescript @types/react @types/node -D
+
+Adicionando Sass
+    yarn add sass
+
