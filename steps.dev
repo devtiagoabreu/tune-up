@@ -3,3 +3,6 @@ criando o projeto 'board'
 
 Rodar projeto
   yarn dev
+
+Adicionando Typescript
+  yarn add typescript @types/react @types/node -D
