@@ -1,0 +1,5 @@
+criando o projeto 'board'
+  yarn create next-app board
+
+Rodar projeto
+  yarn dev
