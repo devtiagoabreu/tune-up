@@ -1,6 +1,6 @@
 import Head from '../../node_modules/next/head';
 import styles from '../styles/styles.module.scss';
-import Image from 'next/image';
+
 
 export default function Home() {
   return (
@@ -9,13 +9,7 @@ export default function Home() {
       <title>Board de Conferências</title>
     </Head>    
     <main className={styles.contentContainer}>
-      <Image 
-        className={styles.image} 
-        src="/images/board-user.svg" 
-        alt="Ferramenta board"
-        width={300}
-        height={300}
-      />
+      <img src="/images/board-user.svg" alt="Ferramenta board" />
       
       <section className={styles.callToAction}>
         <h1>
@@ -28,7 +22,9 @@ export default function Home() {
       </section>
 
       <div className={styles.donaters}>
-      
+        <img src="https://avatars.githubusercontent.com/u/9002790?v=4" alt="Tiago de Abreu" />
+        <img src="https://avatars.githubusercontent.com/u/104369571?v=4" alt="Rodrigo Moura" />
+        <img src="https://avatars.githubusercontent.com/u/85912921?v=4" alt="Igor Santiéllo" />
       </div>
     </main>
     </>
