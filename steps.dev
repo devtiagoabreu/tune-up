@@ -27,6 +27,14 @@ Criando tela board
 
 Botão seja apoiador
 
+Instalando API de autenticação
+yarn add next-auth
+yarn add @types/next-auth
+obs: next-auth/client foi renomeado para next-auth/react  --> para fazer importações...
+
+
+
+verificando user logado
 
 
 
