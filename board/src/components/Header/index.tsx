@@ -1,6 +1,7 @@
 import Link from '../../../node_modules/next/link';
 import styles from './styles.module.scss';
 import { SignInButton } from '../SignInButton';
+import Image from 'next/image';
 
 export function Header() {
     return(
@@ -8,7 +9,13 @@ export function Header() {
             <header className={styles.headerContainer}>
                 <div className={styles.headerContent}>
                     <Link href="/">
-                        <img src="/images/logo.svg" alt="Logo Meu Board"></img>
+                    <Image 
+                        className={styles.image} 
+                        src="/images/logo.svg" 
+                        alt="Logo Meu Board" 
+                        width={50}
+                        height={50}
+                    />
                     </Link>
                     <nav>
                         <Link href="/">

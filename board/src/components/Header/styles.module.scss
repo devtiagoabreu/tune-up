@@ -9,8 +9,11 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
+    position: inherit;
 
-    img {
+    .image {
+        width: 65px;
+        height: 65px;
         cursor: pointer;
     }
 

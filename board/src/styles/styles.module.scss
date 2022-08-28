@@ -6,11 +6,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: 'relative';
 
-    img {
+    .image {
        margin-top: 2rem;
-       width: 300px;
-       height: 300px;
+       width: 100px;
+       height: 100px;
     }
 }
 
@@ -45,15 +46,16 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 1.5rem;
+    position: 'relative';
 
-    img {
+    .image {
         width: 65px;
         height: 65px;
         border-radius: 50%;
         border: 2px solid #141a29;
         transition: all 0.2s;
-
-        + img {
+        
+        + .image {
             margin-left: 10px;
         }
     }
